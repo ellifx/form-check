@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body {
+	background: url('./urg.jpg') no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+.application-form{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 400px;
+}
+.application-form h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+.application-form p{
+	font-size: 20px;
+	margin: 15px 0;
+}
+.application-form input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.application-form button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.application-form button:hover {
+	color: blue;
+}
